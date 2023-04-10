@@ -1,2 +1,2 @@
 # SOS-projekt
-bruh
+# Description
