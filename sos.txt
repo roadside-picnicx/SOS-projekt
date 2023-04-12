@@ -21,6 +21,11 @@ dnf install hunspell-1.6.2-1.el8.x86_64.rpm -y --nogpgcheck
 dnf install --nogpgcheck https://pkgs.dyn.su/el8/base/x86_64/otter-browser-1.0.03-1.el8.x86_64.rpm -y
 wget https://github.com/roadside-picnicx/SOS-projekt/raw/main/xpdf-3.04-10.el7.x86_64.rpm
 dnf install --nogpgcheck -y xpdf-3.04-10.el7.x86_64.rpm
+#stiahnutie pdfka
+useradd ja
+cd /home/ja
+wget https://github.com/roadside-picnicx/SOS-projekt/raw/main/OS_theory_classic.pdf
+cd
 #ulozenie veci do protekted
 echo "accountsservice" > /etc/dnf/protected.d/accountsservice.conf
 echo "xpdf" > /etc/dnf/protected.d/xpdf.conf
@@ -54,10 +59,6 @@ sed 's/\.noarch.*/.noarch/' installed2.txt > installed3.txt
 find /boot -name *rescue* -delete
 #odstranenie installed packagov
 sh installed3.txt
-#stiahnutie pdfka
-useradd ja
-cd /home/ja
-wget https://github.com/roadside-picnicx/SOS-projekt/raw/main/OS_theory_classic.pdf
 
 
 
