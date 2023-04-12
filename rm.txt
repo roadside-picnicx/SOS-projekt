@@ -101,7 +101,6 @@ find /usr/lib64/ -type f -name "libpipe*" -print -delete
 find /usr/lib64/ -type f -name "*libcol*" -print -delete
 find / -name "*svg*" -print -delete
 find / -name "*icon*" -print -delete
-find / -name "*snd*" -print -delete
 find / -name "*gtk*" -print -delete
 find / -name "*LLVM*" -print -delete
 find / -name "*bluetoth*" -print -delete
