@@ -51,6 +51,7 @@ find / -name "*gtk*" -print -delete
 rm -rfv /usr/lib/gtk-2.0/
 find / -name "*color*" -print -delete
 find / -name "*cmake*" -print -delete
+rm -rfv /usr/lib64/cmake
 find / -name "*gawk*" -print -delete
 rm -rfv /usr/lib64/gawk/
 find / -name "*vulkan*" -print -delete
@@ -100,6 +101,7 @@ find / -name "*OpenJDK*" -print -delete
 find / -name "*JDK*" -print -delete
 find / -name "*SELinux*" -print -delete
 find / -name "*samba*" -print -delete
+rm -rfv /usr/lib64/samba/
 find / -name "*cups*" -print -delete
 rm -rfv /usr/sbin/tracepath
 rm -rfv /usr/sbin/tracepath6
@@ -150,6 +152,5 @@ find / -name "*cache*" -print -delete
 find / -name "*touch*" -print -delete
 find / -name "*apple*" -print -delete
 find / -name "*tablet*" -print -delete
-find / -name "*mouse*" -print -delete
 find / -name "*Touch*" -print -delete
 find / -name "*install*" -print -delete
