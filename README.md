@@ -17,3 +17,9 @@ $ wget github.com/roadside-picnicx/SOS-projekt/raw/main/sos.txt
 ```
 ## Browser and pdf
 - to open pdf or browser, simply open xinit, switch directory to **cd home/ja** and user **su ja** and type **xpdf "name"** or **otter-browser "site"**
+
+## Authors
+- [REDACTED]
+- [REDACTED]
+- [REDACTED]
+- [REDACTED]
