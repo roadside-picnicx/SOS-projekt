@@ -7,6 +7,8 @@ This is repository for project from BPC-SOS. Goal of this project is to make Cen
 - bunch of .rpm files which I wget to CentOS (the mirror links died so I uploaded it here)
 ## How to run
 - first you need to do a minimall install of CentOS Stream 9 (I will not be explaining how to do that here)
-- after that run ```shell
+- after that run
+ ```shell
 $ yum install wget -y --nogpgcheck
 ```
+
