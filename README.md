@@ -15,6 +15,10 @@ and then
  ```shell
 $ wget github.com/roadside-picnicx/SOS-projekt/raw/main/sos.txt
 ```
+and simply 
+ ```shell
+$ sh sos.txt
+```
 ## Browser and pdf
 - to open pdf or browser, simply open xinit, switch directory to **cd home/ja** and user **su ja** and type **xpdf "name"** or **otter-browser "site"**
 
