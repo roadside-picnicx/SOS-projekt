@@ -5,3 +5,8 @@ This is repository for project from BPC-SOS. Goal of this project is to make Cen
 - **sos.txt** script that installs xorg, otter browser and xpdf as needed. Then it removes everything unnecessary.
 - **OS_theory_classics.pdf file** the pdf file that I must be able to open 
 - bunch of .rpm files which I wget to CentOS (the mirror links died so I uploaded it here)
+## How to run
+- first you need to do a minimall install of CentOS Stream 9 (I will not be explaining how to do that here)
+- after that run ```shell
+$ yum install wget -y --nogpgcheck
+```
