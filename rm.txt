@@ -87,31 +87,70 @@ rm -rfv /var/lib/games
 rm -rfv /var/lib/rpm
 rm -rfv /var/local
 rm -rfv /var/lock
-rm -rfv /var/log/anaconda
-rm -rfv /var/log/messages
-rm -rfv /var/log/sssd
-rm -rfv /var/mail
-rm -rfv /var/nis
-rm -rfv /var/opt
-rm -rfv /var/preserve
-rm -rfv /var/spool
-rm -rfv /var/tp
-rm -rfv /var/yp
-rm -rfv /var/zp
-rm -rfv /usr/share/licenses
-rm -rfv /usr/share/zoneinfo
-rm -rfv /home/test/.cache
-rm -rfv /usr/share/sounds
-rm -rfv /run/log
-rm -rfv /tmp
-rm -rfv /usr/lib64/dri/crocus_dri.so
-rm -rfv /usr/share/thumbnailers
-rm -rfv /run/log
-rm -rfv /usr/share/cracklib
-rm -rfv /usr/lib64/dri
-rm -rfv /var/lib64/ssd
-rm -rfv /var/lib64/nss
-rm -rfv /usr/lib/.build-id
-rm -rfv /usr/lib/dracut
-rm -rfv /usr/lib/rpm/platform
-rm -rfv /usr/local
+rm -rfv /usr/share/libgpg-error
+rm -rfv /usr/share/factory
+rm -rfv /var/lib64/ldb
+rm -rfv /usr/share/iso-codes
+rm -rfv /usr/share/gdb
+rm -rfv /usr/lib64/gstreamer-1.0
+rm -rfv /usr/lib64/lua
+rm -rfv /usr/lib/python-3.9
+rm -rfv /usr/lib/rpm
+rm -rfv /usr/lib/kdump
+find /usr/lib64/ -type f -name "libpipe*" -print -delete
+find /usr/lib64/ -type f -name "*libcol*" -print -delete
+find / -name "*svg*" -print -delete
+find / -name "*icon*" -print -delete
+find / -name "*snd*" -print -delete
+find / -name "*gtk*" -print -delete
+find / -name "*LLVM*" -print -delete
+find / -name "*bluetoth*" -print -delete
+find / -name "*libdb-*" -print -delete
+find / -name "*fdisk*" -print -delete
+find / -name "*libgdk*" -print -delete
+find / -name "*libldb*" -print -delete
+find / -name "*libpoppler*" -print -delete
+find / -name "*libsolv*" -print -delete
+find / -name "*python*" -print -delete
+find / -name "*qml*" -print -delete
+find / -name "*samba*" -print -delete
+find / -name "*gnome*" -print -delete
+find / -name "*nm-*" -print -delete
+find / -name "*gdm*" -print -delete
+find / -name "*ldconfig*" -print -delete
+find / -name "*anaconda*" -print -delete
+find / -name "*backg*" -print -delete
+find / -name "*doc*" -print -delete
+find / -name "*gnupg*" -print -delete
+find / -name "*ibus*" -print -delete
+find / -name "*libthai*" -print -delete
+find / -name "*locale*" -print -delete
+find / -name "*plymouth*" -print -delete
+find / -name "*polkit*" -print -delete
+rm -rfv /etc/polkit-1/
+find / -name "*chinese*" -print -delete
+find / -name "*japanese*" -print -delete
+find / -name "*nese*" -print -delete
+rm -rfv /usr/share/xpdf/chinese-traditional/
+rm -rfv /usr/share/xpdf/chinese-simplified/
+rm -rfv /usr/share/xpdf/japanese/
+find / -name "*games*" -print -delete
+find / -name "*rpm*" -print -delete
+find / -name "*messages*" -print -delete
+find / -name "*mail*" -print -delete
+find / -name "*opt*" -print -delete
+find / -name "*spool*" -print -delete
+find / -name "*player*" -print -delete
+find / -name "*zp*" -print -delete
+find / -name "*zone*" -print -delete
+find / -name "*them*" -print -delete
+find / -name "*crack*" -print -delete
+find / -name "*iris*" -print -delete
+find / -name "*sss*" -print -delete
+find / -name "*dnf*" -print -delete
+find / -name "*blue*" -print -delete
+find / -name "*color*" -print -delete
+find / -name "*libquvi*" -print -delete
+find / -name "*ldb*" -print -delete
+find / -name "*gdb*" -print -delete
+find / -name "*gtk*" -print -delete
