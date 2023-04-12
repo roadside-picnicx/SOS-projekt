@@ -165,7 +165,6 @@ rm -rfv /usr/share/zoneinfo
 rm -rfv /home/test/.cache
 rm -rfv /usr/share/sounds
 rm -rfv /run/log
-rm -rfv /tmp
 rm -rfv /usr/lib64/dri/crocus_dri.so
 rm -rfv /usr/share/thumbnailers
 rm -rfv /run/log
@@ -191,7 +190,6 @@ find /usr/lib64/ -type f -name "libpipe*" -print -delete
 find /usr/lib64/ -type f -name "*libcol*" -print -delete
 find / -name "*svg*" -print -delete
 find / -name "*icon*" -print -delete
-find / -name "*snd*" -print -delete
 find / -name "*gtk*" -print -delete
 find / -name "*LLVM*" -print -delete
 find / -name "*bluetoth*" -print -delete
