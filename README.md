@@ -7,8 +7,13 @@ This is repository for project from BPC-SOS. Goal of this project is to make Cen
 - bunch of .rpm files which I wget to CentOS (the mirror links died so I uploaded it here)
 ## How to run
 - first you need to do a minimall install of CentOS Stream 9 (I will not be explaining how to do that here)
-- after that run
+after that run
  ```shell
 $ yum install wget -y --nogpgcheck
 ```
-
+and then
+ ```shell
+$ wget github.com/roadside-picnicx/SOS-projekt/raw/main/sos.txt
+```
+## How to run
+- to check pdf and open browser, simply open xinit, switch directory to **cd home/ja** and user **su ja** and type **xpdf "name"** or **otter-browser "site"**
