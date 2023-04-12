@@ -1,14 +1,15 @@
 #po clean installe:
 
 #yum install wget -y --nogpgcheck
-#dnf install xorg-x11-server-Xorg --nogpgcheck -y
-#dnf install xorg-x11-xinit --nogpgcheck -y
-#dnf install xterm --nogpgcheck -y
-#vi ~/.xintrx
-#xterm
-#:wq!
+#treba stiahnut wget na to aby isiel pustit scrip!!!!
+
 
 #!/bin/sh
+#xorg and stuff
+dnf install xorg-x11-server-Xorg --nogpgcheck -y
+dnf install xorg-x11-xinit --nogpgcheck -y
+dnf install xterm --nogpgcheck -y
+echo "xterm" > ~/.xintrx
 #install browseru a pdf readeru
 dnf install epel-release -y
 dnf --enablerepo=epel group
