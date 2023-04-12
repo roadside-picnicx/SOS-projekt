@@ -6,8 +6,6 @@ rm -rfv /var/lib/dnf/
 rm -rfv /var/lib/kdump/
 rm -rfv /var/lib/selinux/
 rm -rfv /var/lib/sss/
-find / -name "*xfce4*" -print -delete
-rm -rfv /etc/xdg/xfce4/
 rm installed.txt
 rm installed1.txt
 rm installed2.txt
