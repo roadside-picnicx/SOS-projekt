@@ -12,7 +12,6 @@ rm installed.txt
 rm installed1.txt
 rm installed2.txt
 rm installed3.txt
-rm -rfv /var/log/
 rm -rfv /var/tmp/
 rm -rfv /var/cache/
 rm -rfv /usr/share/gawk/
@@ -119,7 +118,7 @@ rm -rfv /bin/dirname
 rm -rfv /bin/date
 rm -rfv /bin/groups
 rm -rfv /bin/gunzip
-rm -rfv /bin/logger
+rm -rfv /bin/ger
 rm -rfv /bin/logname
 rm -rfv /bin/look
 rm -rfv /bin/man
