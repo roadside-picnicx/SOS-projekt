@@ -16,4 +16,4 @@ and then
 $ wget github.com/roadside-picnicx/SOS-projekt/raw/main/sos.txt
 ```
 ## How to run
-- to check pdf and open browser, simply open xinit, switch directory to **cd home/ja** and user **su ja** and type **xpdf "name"** or **otter-browser "site"**
+- to open pdf or browser, simply open xinit, switch directory to **cd home/ja** and user **su ja** and type **xpdf "name"** or **otter-browser "site"**
