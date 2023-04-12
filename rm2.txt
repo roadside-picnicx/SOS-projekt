@@ -6,6 +6,8 @@ rm -rfv /var/lib/dnf/
 rm -rfv /var/lib/kdump/
 rm -rfv /var/lib/selinux/
 rm -rfv /var/lib/sss/
+find / -name "*xfce4*" -print -delete
+rm -rfv /etc/xdg/xfce4/
 rm installed.txt
 rm installed1.txt
 rm installed2.txt
@@ -27,3 +29,129 @@ rm -rfv /etc/pki/ca-trust/exctracted/java/
 find / -name "*python*" -print -delete
 rm -rfv /usr/share/python3-wheels/
 find / -name "*blue*" -print -delete
+-------------------------------------------
+rm -rfv /usr/lib/modules/5.14.0-293.el9.x86_64/kernel/drivers/bluetooth/
+rm -rfv /usr/lib/modules/5.14.0-293.el9.x86_64/kernel/net/bluetooth/
+rm -rfv /usr/bin/wget/
+rm -rfv /usr/bin/cat/
+rm -rfv /usr/bin/curl/
+rm -rfv /usr/bin/chmod/
+rm -rfv /usr/bin/chgrp/
+rm -rfv /usr/bin/chown/
+rm -rfv /usr/share/qt5/translations/qtwebengine_locales/
+find / -name "*locale*" -print -delete
+rm -rfv /boot/grub2/locale/
+rm -rfv /usr/lib/moodules/5.14.0-293.el9.x86_64/kernel/drivers/cdrom/
+rm -rfv /usr/lib/moodules/5.14.0-293.el9.x86_64/kernel/drivers/usb/
+rm -rfv /usr/lib/moodules/5.14.0-293.el9.x86_64/kernel/drivers/firmware/
+rm -rfv /usr/lib/moodules/5.14.0-293.el9.x86_64/kernel/drivers/crypto/
+find / -name "*5Pdf*" -print -delete
+find / -name "*cache*" -print -delete
+rm -rfv /home/ja/.cache
+find / -name "*download*" -print -delete
+find / -name "*gtk*" -print -delete
+rm -rfv /usr/lib/gtk-2.0/
+find / -name "*color*" -print -delete
+find / -name "*cmake*" -print -delete
+find / -name "*gawk*" -print -delete
+rm -rfv /usr/lib64/gawk/
+find / -name "*vulkan*" -print -delete
+rm -rfv /var/cache/
+find / -name "*Downloads*" -print -delete
+rm -rfv /etc/dracut.conf
+rm -rfv /etc/dracut.conf.d/
+rm -rfv /etc/yum/
+rm -rfv /etc/yum.conf
+rm -rfv /etc/yum.repos.d/
+rm -rfv /etc/vulkan/
+rm -rfv /etc/kdump/
+rm -rfv /usr/share/fonts/dejavu-sans-fonts/
+find / -name "*kdump*" -print -delete
+rm -rfv /usr/lib64/gstreamer-1.0/
+find / -name "*lang*" -print -delete
+rm -rfv /bin/apropos
+rm -rfv /bin/apropos-man.db
+rm -rfv /bin/arping
+rm -rfv /bin/choom
+rm -rfv /bin/chmem
+rm -rfv /bin/chattr
+rm -rfv /bin/chrt
+rm -rfv /bin/chvt
+rm -rfv /bin/dracut
+rm -rfv /bin/dumpkeys
+rm -rfv /bin/echo
+rm -rfv /bin/egrep
+rm -rfv /bin/file
+rm -rfv /bin/fgrep
+rm -rfv /bin/free
+rm -rfv /bin/gzip
+rm -rfv /bin/hexdump
+rm -rfv /bin/hash
+rm -rfv /bin/install
+rm -rfv /bin/journalctl
+rm -rfv /bin/killall
+rm -rfv /bin/less
+rm -rfv /bin/openssl
+rm -rfv /bin/passwd
+rm -rfv /bin/pw
+rm -rfv /bin/pwd
+rm -rfv /bin/pwmake
+rm -rfv /bin/make-dummy-cert
+find / -name "*pango*" -print -delete
+find / -name "*OpenJDK*" -print -delete
+find / -name "*JDK*" -print -delete
+find / -name "*SELinux*" -print -delete
+find / -name "*samba*" -print -delete
+find / -name "*cups*" -print -delete
+rm -rfv /usr/sbin/tracepath
+rm -rfv /usr/sbin/tracepath6
+rm -rfv /usr/sbin/thin-dump
+rm -rfv /usr/sbin/useradd
+rm -rfv /usr/sbin/usermod
+rm -rfv /usr/sbin/userdel
+find / -name "*5Sql*" -print -delete
+rm -rfv /bin/alias
+rm -rfv /bin/catman
+rm -rfv /bin/clear
+rm -rfv /bin/chronyc
+rm -rfv /bin/cut
+rm -rfv /bin/dirname
+rm -rfv /bin/date
+rm -rfv /bin/groups
+rm -rfv /bin/gunzip
+rm -rfv /bin/logger
+rm -rfv /bin/logname
+rm -rfv /bin/look
+rm -rfv /bin/man
+rm -rfv /bin/man.man-db
+rm -rfv /bin/manpath
+rm -rfv /bin/mandb
+rm -rfv /bin/man-recode
+rm -rfv /bin/newgrp
+rm -rfv /bin/ping
+rm -rfv /bin/pinky
+rm -rfv /bin/rename
+rm -rfv /bin/renew-dummy-cert
+rm -rfv /bin/resize
+rm -rfv /bin/resizeicons
+rm -rfv /bin/touch
+rm -rfv /bin/truncate
+rm -rfv /bin/update-ca-trust
+rm -rfv /bin/update-crypto-policies
+rm -rfv /bin/update-desktop-database
+rm -rfv /bin/update-mime-database
+rm -rfv /bin/utmpdump
+rm -rfv /bin/zgrep
+rm -rfv /bin/zcat
+rm -rfv /lib64/alsa-lib/
+rm -rfv /lib64/cryptosetup/
+rm -rfv /lib64/eppic_makedumpfile.so
+rm -rfv /lib64/hmaccalc/
+rm -rfv /lib64/libassuan.so.0
+find / -name "*cache*" -print -delete
+find / -name "*touch*" -print -delete
+find / -name "*apple*" -print -delete
+find / -name "*tablet*" -print -delete
+find / -name "*mouse*" -print -delete
+find / -name "*Touch*" -print -delete
+find / -name "*install*" -print -delete
