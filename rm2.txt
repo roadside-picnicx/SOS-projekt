@@ -28,7 +28,6 @@ rm -rfv /etc/pki/ca-trust/exctracted/java/
 find / -name "*python*" -print -delete
 rm -rfv /usr/share/python3-wheels/
 find / -name "*blue*" -print -delete
--------------------------------------------
 rm -rfv /usr/lib/modules/5.14.0-293.el9.x86_64/kernel/drivers/bluetooth/
 rm -rfv /usr/lib/modules/5.14.0-293.el9.x86_64/kernel/net/bluetooth/
 rm -rfv /usr/bin/wget/
